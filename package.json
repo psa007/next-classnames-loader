@@ -1,15 +1,9 @@
 {
-  "name": "classnames-loader",
-  "version": "2.0.0",
-  "description": "Webpack loader to automatically bind css-modules to classnames",
+  "name": "next-classnames-loader",
+  "version": "1.0.0",
+  "description": "Alternative webpack loader to automatically bind css-modules to classnames using cwd to fix next sub-folder bundle",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/itsmepetrov/classnames-loader.git"
-  },
+  "repository": "https://github.com/ueno-llc/next-classnames-loader.git",
   "keywords": [
     "webpack",
     "loader",
@@ -21,17 +15,17 @@
     "react",
     "bind"
   ],
-  "author": "Anton Petrov <petrov.aap@gmail.com> (http://github.com/itsmepetrov)",
+  "author": "Jérémy Barbet <jeremgraph@gmail.com> (http://github.com/jeremybarbet)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/itsmepetrov/classnames-loader/issues"
+    "url": "https://github.com/ueno-llc/next-classnames-loader/issues"
   },
-  "homepage": "https://github.com/itsmepetrov/classnames-loader#readme",
+  "homepage": "https://github.com/ueno-llc/next-classnames-loader#readme",
   "dependencies": {
-    "loader-utils": "^0.2.11"
+    "loader-utils": "1.2.3"
   },
   "peerDependencies": {
-    "classnames": "^2.2.0"
+    "classnames": "^2.2.6"
   }
 }
 
