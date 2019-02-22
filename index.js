@@ -7,7 +7,6 @@ module.exports = function(source, map) {
 module.exports.pitch = function(remainingRequest) {
     this.cacheable();
     return `
-        // classnames-loader: automatically bind css-modules to classnames
         var classNames = require('${process.cwd()}/node_modules/classnames/bind');
         var locals = require(${loaderUtils.stringifyRequest(this, '!!' + remainingRequest)});
         var css = classNames.bind(locals);
