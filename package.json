@@ -1,6 +1,6 @@
 {
   "name": "next-classnames-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Alternative webpack loader to automatically bind css-modules to classnames using cwd to fix next sub-folder bundle",
   "main": "index.js",
   "repository": "https://github.com/ueno-llc/next-classnames-loader.git",
