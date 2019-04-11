@@ -7,9 +7,8 @@ module.exports = function(source, map) {
 
 module.exports.pitch = function(remainingRequest) {
     this.cacheable();
-    var classNames = require(path.resolve(`${process.cwd()}/node_modules/classnames/bind`));
     return `
-        var classNames = ${classNames};
+        var classNames = require('classnames/bind');
         var locals = require(${loaderUtils.stringifyRequest(this, '!!' + remainingRequest)});
         var css = classNames.bind(locals);
         for (var style in locals) css[style] = locals[style];
